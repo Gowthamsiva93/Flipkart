@@ -201,7 +201,7 @@ body {
 .Electronic-container {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  padding: 20px;
 }
 .EC-primary {
   display: flex;
@@ -275,16 +275,19 @@ body {
 .top-para {
   color: gray;
 }
+.top-para h5 {
+  line-height: 22px;
+}
 .bottom-para {
   padding: 20px;
   color: gray;
 }
 .bottom-para p {
   font-size: 10px;
+  line-height: 22px;
 }
 footer {
   background-color: #172337;
-  height: 332;
 }
 .footer-row {
   width: 100%;
@@ -324,7 +327,6 @@ footer {
   font-size: 12px;
   text-align: left;
   padding: 10px 0px;
-  cursor: pointer;
   text-transform: uppercase;
 }
 .footer-list a {
@@ -346,7 +348,6 @@ footer {
   font-weight: 100px;
   padding: 5px 0px;
   line-height: 20px;
-  cursor: pointer;
 }
 .footer-list-address p {
   text-align: left;
